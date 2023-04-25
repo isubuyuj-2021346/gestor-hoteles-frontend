@@ -1,13 +1,15 @@
 import { Navbar } from './componets/Navbar'
+import { Usuarios } from './componets/Usuarios'
 
 export const usuario = () => {
     return (
         <>
+
             <div>
-                <div>
-                    <Navbar />
-                </div>
+                <Navbar/>
+                <Usuarios/>
             </div>
+
         </>
     )
 }

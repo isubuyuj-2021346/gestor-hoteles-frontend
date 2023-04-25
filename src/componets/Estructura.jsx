@@ -1,18 +1,27 @@
 import Imagenes from './Imagenes'
-import './Hoteles'
+import { Hoteles } from './Hoteles'
+import '../App.css'
+import { Usuarios } from './Usuarios'
+
 export const Estructura = () => {
     return (
         <>
             <br />
             <br />
-            <div className="card text-bg-dark">
-                <img src={Imagenes.img4} class="card-img" />
+            <div className="container">
+                <img src={Imagenes.img11} className="card-img" />
                 <div className="card-img-overlay">
                 </div>
-                <div className='container'>
-                    {/* <div>
-                        <Hoteles />
-                    </div>  */}
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div>
+                <div>
+                    <Hoteles />
+                    {/* <Usuarios/> */}
                 </div>
             </div>
         </>

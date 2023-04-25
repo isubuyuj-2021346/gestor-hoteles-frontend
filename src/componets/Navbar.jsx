@@ -6,11 +6,11 @@ import Imagenes from './Imagenes'
 export const Navbar = () => {
     return (
         <>
-            <NavContainer>
+            <NavContainer >
 
                 <div>
-                    <nav class="navbar bg-body-tertiary fixed-top">
-                        <div class="container-fluid">
+                    <nav  class="navbar bg-body-tertiary fixed-top ">
+                        <div class="container-fluid" >
                             <img src={Imagenes.img2} />
                             <a class="titulo" href="#">Royale Hoteles</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -21,10 +21,10 @@ export const Navbar = () => {
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div class="offcanvas-body">
+                                <div class="offcanvas-body" >
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-2">
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Facturas</a>
+                                            <a class="nav-link"  href="#">Facturas</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href=".../src/usuario">Usuario</a>
@@ -32,7 +32,7 @@ export const Navbar = () => {
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Close</a>
                                         </li>
-                                        <li class="nav-item dropdown">
+                                        <li class="nav-item dropdown" >
                                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Hoteles
                                             </a>
