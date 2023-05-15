@@ -50,7 +50,7 @@ h2 {
 body {
   margin: 0;
   height: 100%;
-  background-color: #ea4d53;
+  background-color: #a0a0a0;
 }
 
 /* link sin visitar */
@@ -61,12 +61,12 @@ a:link {
 
 /* link visitado */
 a:visited {
-  color: #2e1055a8;
+  color: #eae9eca8;
 }
 
 /* al pasar el ratón */
 a:hover {
-  color: rgb(70, 38, 92);
+  color: rgb(183, 178, 187);
 }
 
 /* seleccionado */
@@ -120,7 +120,7 @@ a:active {
   border-radius: 200%;
   width: 200px;
   height: 200px;
-  background: white;
+  background: rgb(223, 223, 223);
   border: 2px solid white;
   overflow: hidden;
   margin: auto;
@@ -321,36 +321,6 @@ tr {
   margin-bottom: 10px;
 }
 
-@-webkit-keyframes anim_nivel25 {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 25%
-  }
-}
-
-@-webkit-keyframes anim_nivel50 {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 50%
-  }
-}
-
-@-webkit-keyframes anim_nivel75 {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 75%
-  }
-}
-
 .barra_skills {
   width: 400px;
   height: 10px;
@@ -362,11 +332,7 @@ tr {
   position: relative;
   height: 10px;
   margin: 10px 10px 10px 0;
-  background-color: #ea4d53;
-  -webkit-animation-name: anim_nivel25;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
+  background-color: #030202;
 }
 
 .nivel25:hover {
@@ -381,10 +347,6 @@ tr {
   height: 10px;
   margin: 10px 10px 10px 0;
   background-color: #ea4d53;
-  -webkit-animation-name: anim_nivel50;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
 }
 
 .nivel50:hover {
@@ -399,19 +361,19 @@ tr {
   height: 10px;
   margin: 10px 10px 10px 0;
   background-color: #ea4d53;
-  -webkit-animation-name: anim_nivel75;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
 }
 
 .nivel75:hover {
-  background-color: lightgrey;
+  background-color: rgb(209, 209, 209);
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: linear;
 }
-
+.conte{
+  background-color: rgb(190, 190, 190);
+  color: #0a0101;
+  font-size: large;
+}
 @media screen and (max-width:640px) {
 
   .contenedor_flex {
@@ -436,7 +398,6 @@ tr {
   .contenedor_flex {
     flex-direction: column;
     align-items: center;
-    /* flex-start | flex-end | center | baseline | stretch */
   }
 
   #datos_personales {
