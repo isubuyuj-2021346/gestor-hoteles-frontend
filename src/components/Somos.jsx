@@ -24,7 +24,10 @@ export const Somos = () => {
                                 información valiosa sobre el rendimiento de tu hotel y tomar decisiones informadas para optimizar tu negocio.</a>
                             <br />
                             <br />
+                            <br />
                             <button type="button" className="btn-add">Agregar</button>
+                            <button type="button" className="btn-add">Editar</button>
+                            <button type="button" className="btn-add">Eliminar</button>
                         </center>
                     </p>
                     

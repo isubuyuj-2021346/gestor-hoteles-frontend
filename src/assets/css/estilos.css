@@ -24,8 +24,8 @@
 }
 
 .card {
-	width: 100%;
-	margin: 20px;
+	/* width: 100%;
+	margin: 20px; */
 	border-radius: 6px;
 	overflow: hidden;
 	background: #e7e7e7d6;
@@ -36,7 +36,7 @@
 
 .card:hover {
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-	transform: translateY(-3%);
+	transform: translateY(-5%);
 }
 
 .card img {

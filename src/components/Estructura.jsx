@@ -1,13 +1,15 @@
 import Imagenes from './Imagenes'
 import { Hoteles } from './Hoteles'
 // import '../App.css'
-import { Usuarios } from '../Usuarios'
 import { Somos } from './Somos'
+import { Navbar } from './Navbar'
 
 export const Estructura = () => {
     return (
         <>
-            
+            <div>
+                <Navbar/>
+            </div>
             <div >
                 <img src={Imagenes.img11} className="card-img" />
                 <div className="card-img-overlay">

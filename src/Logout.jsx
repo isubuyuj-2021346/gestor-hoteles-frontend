@@ -1,17 +1,20 @@
-import React from 'react'
+// import React from 'react'
+// import { useState } from "react";
+// import Swal from "sweetalert2";
+// import { login } from "../api/ApiLogin";
 
 export const logout = () => {
     return (
         <>
-            <div class="container" id="container">
+            {/* <div class="container" id="container">
 
                 <div class="form-container sign-in-container">
                     <form action="#">
                         <h1>Sign in</h1>
                         <div class="social-container">
-                            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="social"><i class="fab fa-google-plus-g"></i></a>
-                            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="" class="social"><i class=""></i></a>
+                            <a href="" class="social"><i class=""></i></a>
+                            <a href="" class="social"><i class=""></i></a>
                         </div>
                         <span>Usa tu cuenta</span>
                         <input type="text" placeholder="Name" />
@@ -30,7 +33,7 @@ export const logout = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

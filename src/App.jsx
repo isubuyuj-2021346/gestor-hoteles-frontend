@@ -2,10 +2,11 @@ import { useState } from 'react'
 // import '../src/assets/css/App.css'
 import { Navbar } from './components/Navbar'
 import { Estructura } from './components/Estructura'
-import { Login } from './Login'
+import { Login } from '../src/login/components/Login'
 import { logout } from './logout'
 import { Usuarios } from './Usuarios'
 import { Hotel } from './components/Hotel'
+import { Outlet } from 'react-router-dom';
 // import { Usuario} from './Usuario'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
 
   return (
     <>
+
+      <Outlet/>
       {/* <div className='L1'>
         <div >
           <Navbar />

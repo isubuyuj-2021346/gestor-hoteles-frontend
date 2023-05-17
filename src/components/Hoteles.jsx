@@ -5,7 +5,35 @@ export const Hoteles = () => {
   return (
     <>
       <div >
+
+        <div className='container '>
+          <div className="card">
+            <figure>
+              <img src={Imagenes.img5} />
+            </figure>
+            <div className="contenido-card">
+              <h3>Hotel Barcelo</h3>
+              <p>Este elegante hotel dispone de piscina exterior, bañera de hidromasaje y spa con gimnasio y sauna.
+                El trato amable y el desayuno estuvo muy bueno</p>
+              <a href="#">Leer Más</a>
+            </div>
+          </div>
+        </div>
+        <div className='container '>
+          <div className="card">
+            <figure>
+              <img src={Imagenes.img6} />
+            </figure>
+            <div className="contenido-card">
+              <h3>Conquistador Hotel y Conference Center</h3>
+              <p>El Conquistador Hotel & Conference Center se encuentra a 190 metros de la estación de metro Plaza
+                de la República y a 100 metros del centro comercial Plaza Quo.</p>
+              <a href="#">Leer Más</a>
+            </div>
+          </div>
+        </div>
         <div class="container-card">
+
 
           <div class="card">
             <figure>
